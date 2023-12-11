@@ -1,0 +1,373 @@
+
+.translator {
+  padding-right: 5%;
+  background-color: #252525;
+  width:100%;
+  min-height:400px;
+}
+
+.row-wrapper {
+  display: flex;
+}
+
+.translator-container {
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.text-box {
+  min-height: 240px;
+  width: 100%;
+  padding: 40px 20px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  background: url('../assets/icon.jpg') no-repeat center center/cover;
+}
+
+textarea {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  box-shadow: -2px 5px 10px -5px #3a19cebf;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+textarea::placeholder,
+.output-placeholder {
+  color: white;
+  user-select: none;
+  cursor: text;
+  font-size: 20px;
+}
+
+.input-form {
+  position: relative;
+}
+
+.icon-btn {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 13.5px 20px;
+  transition: 0.2s ease-in-out;
+  right: 0;
+}
+
+.icon-btn:hover {
+  color: #696969bf;
+}
+
+.speaker {
+  font-size: 27px;
+  bottom: 2px;
+  right: 30px;
+}
+
+.copy-btn {
+  bottom: 5px;
+}
+
+.copy-output-btn {
+  bottom: -2px;
+}
+
+.output-box {
+  position: relative;
+  box-shadow: -2px 5px 10px -5px #3a19cebf;
+}
+
+.loading-output {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6c757d;
+  letter-spacing: 2px;
+}
+
+
+.top-row {
+  display: flex;
+  height: 40px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.top-row select {
+  margin-left: auto;
+  height: 100%;
+  background-color: #acbadd;
+}
+
+.translation-error {
+  color: #ff1234;
+}
+
+@media (max-width: 850px) {
+  .translator {
+    width: 100%;
+   
+  }
+  .top-row {
+    display: flex;
+    height: 40px;
+    margin-top: 13%;
+    margin-bottom: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .translator-container {
+    width: 100%;
+  }
+
+  .row-wrapper {
+    flex-direction: column;
+  }
+  .top-row {
+    display: flex;
+    height: 40px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 210px) {
+  .text-box {
+    min-height: 150px;
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 80px;
+    font-size: 16px;
+    border-radius: 7px;
+  }
+  .top-row {
+    display: flex;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.translator {
+  width: 90%;
+  margin-left: 5%;
+  height: 500px;
+  
+}
+
+.row-wrapper {
+  display: flex;
+  height:400px;
+}
+
+.translator-container {
+  width: 50%;
+}
+
+.text-box {
+  min-height: 300px;
+  width: 95%;
+  padding-left:5%;
+  padding-top: 7%;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding-bottom: 40px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  background: url('../assets/icon.jpg') no-repeat center center/cover;
+}
+
+textarea {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  box-shadow: -2px 5px 10px -5px #000000bf;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+textarea::placeholder,
+.output-placeholder {
+  color: white;
+  user-select: none;
+  cursor: text;
+}
+
+.input-form {
+  position: relative;
+}
+
+.icon-btn {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 13.5px 20px;
+  transition: 0.2s ease-in-out;
+  right: 0;
+}
+
+.icon-btn:hover {
+  color: #696969bf;
+}
+
+.speaker {
+  font-size: 27px;
+  bottom: 2px;
+  right: 30px;
+}
+
+.copy-btn {
+  bottom: 5px;
+}
+
+.copy-output-btn {
+  bottom: -2px;
+}
+
+.output-box {
+  position: relative;
+  box-shadow: 2px 5px 10px -5px rgba(0, 0, 0, 0.75);
+}
+
+.loading-output {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6c757d;
+  letter-spacing: 2px;
+}
+
+
+.top-row {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin: 7px 0px;
+}
+
+.btn-translate,
+.top-row select {
+  margin-left: auto;
+ 
+}
+
+.translation-error {
+  color: #ff1234;
+}
+
+@media (max-width: 1279px) {
+  .translator {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .translator-container {
+    width: 100%;
+  }
+
+  .row-wrapper {
+    flex-direction: column;
+  }
+}
+*/
