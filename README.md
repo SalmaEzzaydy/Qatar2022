@@ -2,10 +2,6 @@
 
 The objective behind this project is to track the spectacular event, the "2022 World Cup," taking place in Qatar. This project represents a web application, "Qatar 2022," designed to explore the stadiums and their impressive architecture. It provides information about their locations. Additionally, the application offers the capability to translate various languages to Arabic and other languages, and vice versa, to enhance communication channels with international spectators. A "weather" feature has also been added to visualize climatic information for a specified region.
 
-**Architecture**
-
-![c](https://github.com/SalmaEzzaydy/Qatar2022/assets/153545273/825b3bd3-ccb5-4c61-9ef7-bfeeb3670457)
-
 
 **home page**
 
