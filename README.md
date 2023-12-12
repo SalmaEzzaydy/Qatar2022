@@ -5,4 +5,5 @@ Ce projet représente une application web "Qatar 2022" qui permet de découvrir 
 
 **Architecture**
 
-![Uploading c.PNG…]()
+![c](https://github.com/SalmaEzzaydy/Qatar2022/assets/153545273/825b3bd3-ccb5-4c61-9ef7-bfeeb3670457)
+
